@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.0.0" />
+    <PackageReference Include="Nager.Date" Version="1.31.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkforceManagementAPI.Common\WorkforceManagementAPI.Common.csproj" />
+    <ProjectReference Include="..\WorkforceManagementAPI.DAL\WorkforceManagementAPI.DAL.csproj" />
+    <ProjectReference Include="..\WorkforceManagementAPI.DTO\WorkforceManagementAPI.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

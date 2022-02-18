@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.WEB", "WorkforceManagementAPI.WEB\WorkforceManagementAPI.WEB.csproj", "{051C6A9C-09EC-4DFC-981F-B0B56FE28312}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.DAL", "WorkforceManagementAPI.DAL\WorkforceManagementAPI.DAL.csproj", "{086CBE4B-E00B-457D-A750-586F8B1D3ED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.DTO", "WorkforceManagementAPI.DTO\WorkforceManagementAPI.DTO.csproj", "{ED6F99CD-4748-46A6-B549-A1F2932B3EB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.Common", "WorkforceManagementAPI.Common\WorkforceManagementAPI.Common.csproj", "{5EF676C0-4F7C-4C87-BA7B-A8A8E5D516CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.Test", "WorkforceManagementAPI.Test\WorkforceManagementAPI.Test.csproj", "{533AAD68-001F-4A6E-9CEC-131327F6DFEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.BLL", "WorkforceManagementAPI.BLL\WorkforceManagementAPI.BLL.csproj", "{EDFF0F43-F7C1-4E4C-A46A-646A279D77BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{051C6A9C-09EC-4DFC-981F-B0B56FE28312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051C6A9C-09EC-4DFC-981F-B0B56FE28312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051C6A9C-09EC-4DFC-981F-B0B56FE28312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051C6A9C-09EC-4DFC-981F-B0B56FE28312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086CBE4B-E00B-457D-A750-586F8B1D3ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086CBE4B-E00B-457D-A750-586F8B1D3ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086CBE4B-E00B-457D-A750-586F8B1D3ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086CBE4B-E00B-457D-A750-586F8B1D3ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6F99CD-4748-46A6-B549-A1F2932B3EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6F99CD-4748-46A6-B549-A1F2932B3EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6F99CD-4748-46A6-B549-A1F2932B3EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6F99CD-4748-46A6-B549-A1F2932B3EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF676C0-4F7C-4C87-BA7B-A8A8E5D516CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF676C0-4F7C-4C87-BA7B-A8A8E5D516CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF676C0-4F7C-4C87-BA7B-A8A8E5D516CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF676C0-4F7C-4C87-BA7B-A8A8E5D516CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533AAD68-001F-4A6E-9CEC-131327F6DFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533AAD68-001F-4A6E-9CEC-131327F6DFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533AAD68-001F-4A6E-9CEC-131327F6DFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533AAD68-001F-4A6E-9CEC-131327F6DFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFF0F43-F7C1-4E4C-A46A-646A279D77BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFF0F43-F7C1-4E4C-A46A-646A279D77BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFF0F43-F7C1-4E4C-A46A-646A279D77BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFF0F43-F7C1-4E4C-A46A-646A279D77BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7998272F-2060-4743-AABC-161E42C23EDD}
+	EndGlobalSection
+EndGlobal
